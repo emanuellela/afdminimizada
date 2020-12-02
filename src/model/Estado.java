@@ -1,13 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package model;
 
 
 public class Estado {
     private String estado;
+    private int nEstado;
+
+    public Estado(String estado) {
+        this.estado = estado;
+        estado = "q"+ nEstado;
+       nEstado++; 
+       }
+    
 
     public String getEstado() {
         return estado;
@@ -16,5 +19,13 @@ public class Estado {
     public void setEstado(String estado) {
         this.estado = estado;
     }
+    
+ public String recebeSimbolo(char simbolo){
+    return estado;
+   
+ }
+     
+ 
+    
     
 }
