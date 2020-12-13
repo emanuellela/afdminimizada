@@ -1,31 +1,80 @@
 package model;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class Estado {
-    private String estado;
-    private int nEstado;
-
-    public Estado(String estado) {
-        this.estado = estado;
-        estado = "q"+ nEstado;
-       nEstado++; 
-       }
-    
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
-    
- public String recebeSimbolo(char simbolo){
-    return estado;
    
- }
+  private static int id = 0;
+  private String name;
+  Map<String, Estado> transition;
+  private boolean start;
+  private boolean end;
+
+    public Estado() {
+        this.name = "q"+id;
+        start = false;
+        end = false;
+        transition = new HashMap<>();
+        id++;
+        
+    }
+
+    public static int getId() {
+        return id;
+    }
+
+    public static void setId(int id) {
+        Estado.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Map<String, Estado> getTransition() {
+        return transition;
+    }
+
+    public void setTransition(Map<String, Estado> transition) {
+        this.transition = transition;
+    }
+
+    public boolean isStart() {
+        return start;
+    }
+
+    public void setEstadoInicial(boolean start) {
+        this.start = start;
+    }
+
+    public boolean isEnd() {
+        return end;
+    }
+
+    public void setEstadoFinal(boolean end) {
+        this.end = end;
+    }
+    
+    
+    
+    
+    
+        
+        
+    }
+    
+
+    
+ 
      
+ 
  
     
     
-}
+
