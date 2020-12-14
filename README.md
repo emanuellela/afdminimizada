@@ -10,7 +10,7 @@ Profa. Alice Finger
 ## Descrição
 
 <p align="justify"> O Trabalho foi desenvolvido em java versão 8, utilizando o NetBeans IDE para implementar um programa  que  simula  um  Autômato  Finito  Determinıstico e permite reconhecer cadeias de entrada de uma determinada linguagem. O programa retorna o autômato minimizado, mostrando quais são os estados inalcançáveis e mortos.
-Em outras palavras, dada uma especificação de um AFD, e minimizá-lo quando remove se os estados inúteis e/ou a combinação de estados equivalentes.</p>
+Em outras palavras, dada uma especificação de um AFD, é possível minimizá-lo quando os estados inúteis são removidos e/ou a combinação de estados são equivalentes.</p>
 
 <p align="justify"> O programa recebe como entrada um AFD. Isso pode ser feito direto do teclado ou a partir deum arquivo.  A entrada do AFD sera a descrição formal dele, ou seja:</p>
 
