@@ -7,6 +7,7 @@ Profa. Alice Finger
 > Status do projeto: concluído :heavy_check_mark:
 
 @author Emanuelle Alves
+
 @author Thalis Antunes
 
 ## Descrição
