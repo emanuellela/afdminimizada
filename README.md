@@ -1,5 +1,3 @@
-# afdminimizada
-
 # Programa  que  Simula  um  AFD :computer: 
 
 Profa. Alice Finger
@@ -15,7 +13,7 @@ Profa. Alice Finger
 <p align="justify"> O Trabalho foi desenvolvido em java versão 8, utilizando o NetBeans IDE para implementar um programa  que  simula  um  Autômato  Finito  Determinıstico e permite reconhecer cadeias de entrada de uma determinada linguagem. O programa retorna o autômato minimizado, mostrando quais são os estados inalcançáveis e mortos.
 Em outras palavras, dada uma especificação de um AFD, é possível minimizá-lo quando os estados inúteis são removidos e/ou a combinação de estados são equivalentes.</p>
 
-<p align="justify"> O programa recebe como entrada um AFD. Isso pode ser feito direto do teclado ou a partir deum arquivo.  A entrada do AFD sera a descrição formal dele, ou seja:</p>
+<p align="justify">A entrada do AFD sera a descrição formal dele, ou seja:</p>
 
 - Alfabeto;
 - Estados do autômato;
